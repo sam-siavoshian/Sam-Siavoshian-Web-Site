@@ -6,18 +6,23 @@
 }
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: rgb(107,87,218);
-  background: linear-gradient(90deg, rgba(107,87,218,1) 0%, rgba(127,166,216,1) 100%);
+  background: rgb(107, 87, 218);
+  background: linear-gradient(
+    90deg,
+    rgba(107, 87, 218, 1) 0%,
+    rgba(127, 166, 216, 1) 100%
+  );
 }
-ol,ul {
+ol,
+ul {
   list-style: none;
 }
 a {
   color: #000;
   text-decoration: none;
 }
-html{
-  scroll-behavior:smooth
+html {
+  scroll-behavior: smooth;
 }
 /* Make Pc Nav */
 .pc-nav {
@@ -86,15 +91,31 @@ html{
   border-radius: 5px;
   /* Make Gradient */
   background: hsla(187, 83%, 65%, 1);
-  background: linear-gradient(225deg, hsla(187, 83%, 65%, 1) 0%, hsla(301, 84%, 81%, 1) 50%, hsla(347, 75%, 61%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(187, 83%, 65%, 1) 0%, hsla(301, 84%, 81%, 1) 50%, hsla(347, 75%, 61%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(187, 83%, 65%, 1) 0%, hsla(301, 84%, 81%, 1) 50%, hsla(347, 75%, 61%, 1) 100%);
+  background: linear-gradient(
+    225deg,
+    hsla(187, 83%, 65%, 1) 0%,
+    hsla(301, 84%, 81%, 1) 50%,
+    hsla(347, 75%, 61%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(187, 83%, 65%, 1) 0%,
+    hsla(301, 84%, 81%, 1) 50%,
+    hsla(347, 75%, 61%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(187, 83%, 65%, 1) 0%,
+    hsla(301, 84%, 81%, 1) 50%,
+    hsla(347, 75%, 61%, 1) 100%
+  );
 }
 .workSimple-link {
   display: flex;
   justify-content: center;
   margin-top: 4%;
   font-size: 25px;
+  font-weight: 700;
 }
 .workSimple-logo {
   padding-top: 10px;
@@ -112,34 +133,59 @@ html{
   border-radius: 5px;
   /* Make Gradient */
   background: hsla(138, 82%, 69%, 1);
-  background: linear-gradient(90deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(90deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(90deg, hsla(138, 82%, 69%, 1) 0%, hsla(186, 100%, 50%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(138, 82%, 69%, 1) 0%,
+    hsla(186, 100%, 50%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(138, 82%, 69%, 1) 0%,
+    hsla(186, 100%, 50%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(138, 82%, 69%, 1) 0%,
+    hsla(186, 100%, 50%, 1) 100%
+  );
 }
 .aboutMe-title {
   text-align: center;
   padding: 10px;
 }
 .aboutMe-description {
-  font-size: 25px;
+  font-size: 24px;
   padding: 20px;
   line-height: 40px;
+  font-weight: 700;
 }
-/* Creat Employ Section */
+/* Creat Employ Me Section */
 .employ {
   display: flex;
   justify-content: center;
   margin-top: 7%;
 }
 .employ-container {
-  height: 50vh;
+  height: 55vh;
   width: 60%;
   border-radius: 5px;
   /* Make Gradient */
   background: hsla(252, 40%, 29%, 1);
-  background: linear-gradient(90deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
-  background: -moz-linear-gradient(90deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
-  background: -webkit-linear-gradient(90deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    hsla(252, 40%, 29%, 1) 0%,
+    hsla(270, 77%, 71%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(252, 40%, 29%, 1) 0%,
+    hsla(270, 77%, 71%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(252, 40%, 29%, 1) 0%,
+    hsla(270, 77%, 71%, 1) 100%
+  );
 }
 .employ-title {
   text-align: center;
@@ -149,6 +195,7 @@ html{
   font-size: 23px;
   padding: 20px;
   line-height: 37px;
+  font-weight: 700;
 }
 /* Make Social Media Icon And Phone Number*/
 .phoneNumber {
@@ -165,18 +212,213 @@ html{
   margin-right: 20px;
 }
 .fa-telegram {
-  color: #229ED9;
+  color: #229ed9;
 }
 .fa-whatsapp {
   color: #31bd64;
 }
 /* Responsive Design */
-@media (max-width:576px) {
+@media (max-width: 576px) {
   /* Responsive Nav */
   .nav-img {
     width: 80%;
   }
   .img-parent {
     width: 10%;
+  }
+  .ChangeLang {
+    padding: 0;
+  }
+  .Language {
+    font-size: 11px;
+  }
+  /* Responsive Work Simple Section*/
+  .workSimple-container {
+    width: 70%;
+  }
+  .workSimple-link {
+    font-size: 20px;
+  }
+  /* Responsive About Me Section */
+  .aboutMe-container {
+    height: 70vh;
+    width: 70%;
+  }
+  .aboutMe-description {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  /* Responsive Employ Me Section */
+  .employ-container {
+    width: 70%;
+    height: 80vh;
+  }
+  .employ-description {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Responsive Nav */
+  .nav-img {
+    width: 85%;
+  }
+  .img-parent {
+    width: 10%;
+  }
+  .ChangeLang {
+    padding: 3px;
+  }
+  .Language {
+    font-size: 15px;
+  }
+  /* Responsive Work Simple Section*/
+  .workSimple-container {
+    width: 70%;
+    height: 80vh;
+  }
+  .workSimple-link {
+    font-size: 20px;
+  }
+  /* Responsive About Me Section */
+  .aboutMe-container {
+    height: 70vh;
+    width: 70%;
+  }
+  .aboutMe-description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* Responsive Employ Me Section */
+  .employ-container {
+    width: 70%;
+    height: 80vh;
+  }
+  .employ-description {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Responsive Nav */
+  .nav-img {
+    width: 70%;
+  }
+  .img-parent {
+    width: 10%;
+  }
+  .ChangeLang {
+    padding: 7px;
+  }
+  .Language {
+    font-size: 17px;
+  }
+  /* Responsive Work Simple Section*/
+  .workSimple-container {
+    width: 70%;
+    height: 95vh;
+  }
+  .workSimple-link {
+    font-size: 20px;
+  }
+  /* Responsive About Me Section */
+  .aboutMe-container {
+    height: 70vh;
+    width: 70%;
+  }
+  .aboutMe-description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* Responsive Employ Me Section */
+  .employ-container {
+    width: 70%;
+    height: 80vh;
+  }
+  .employ-description {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Responsive Nav */
+  .nav-img {
+    width: 70%;
+  }
+  .img-parent {
+    width: 10%;
+  }
+  .ChangeLang {
+    padding: 7px;
+  }
+  .Language {
+    font-size: 17px;
+  }
+  /* Responsive Work Simple Section*/
+  .workSimple-container {
+    width: 70%;
+    height: 107vh;
+  }
+  .workSimple-link {
+    font-size: 20px;
+  }
+  /* Responsive About Me Section */
+  .aboutMe-container {
+    height: 70vh;
+    width: 70%;
+  }
+  .aboutMe-description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* Responsive Employ Me Section */
+  .employ-container {
+    width: 70%;
+    height: 65vh;
+  }
+  .employ-description {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* Responsive Nav */
+  .nav-img {
+    width: 70%;
+  }
+  .img-parent {
+    width: 10%;
+  }
+  .ChangeLang {
+    padding: 7px;
+  }
+  .Language {
+    font-size: 17px;
+  }
+  /* Responsive Work Simple Section*/
+  .workSimple-container {
+    width: 70%;
+    height: 75vh;
+  }
+  .workSimple-link {
+    font-size: 20px;
+  }
+  /* Responsive About Me Section */
+  .aboutMe-container {
+    height: 40vh;
+    width: 70%;
+  }
+  .aboutMe-description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* Responsive Employ Me Section */
+  .employ-container {
+    width: 70%;
+    height: 45vh;
+  }
+  .employ-description {
+    font-size: 17px;
+    line-height: 25px;
   }
 }

@@ -172,3 +172,208 @@ html{
 .fa-whatsapp {
   color: #31bd64;
 }
+/* Responsive Design */
+@media (max-width: 576px) {
+  /* Responsive Nav */
+  .nav-img {
+    width: 80%;
+  }
+  .img-parent {
+    width: 10%;
+  }
+  .ChangeLang {
+    padding: 0;
+  }
+  .Language {
+    font-size: 11px;
+  }
+  /* Responsive Work Simple Section*/
+  .workSimple-container {
+    width: 70%;
+  }
+  .workSimple-link {
+    font-size: 20px;
+  }
+  /* Responsive About Me Section */
+  .aboutMe-container {
+    height: 70vh;
+    width: 70%;
+  }
+  .aboutMe-description {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  /* Responsive Employ Me Section */
+  .employ-container {
+    width: 70%;
+    height: 80vh;
+  }
+  .employ-description {
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Responsive Nav */
+  .nav-img {
+    width: 85%;
+  }
+  .img-parent {
+    width: 10%;
+  }
+  .ChangeLang {
+    padding: 3px;
+  }
+  .Language {
+    font-size: 15px;
+  }
+  /* Responsive Work Simple Section*/
+  .workSimple-container {
+    width: 70%;
+    height: 80vh;
+  }
+  .workSimple-link {
+    font-size: 20px;
+  }
+  /* Responsive About Me Section */
+  .aboutMe-container {
+    height: 70vh;
+    width: 70%;
+  }
+  .aboutMe-description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* Responsive Employ Me Section */
+  .employ-container {
+    width: 70%;
+    height: 80vh;
+  }
+  .employ-description {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Responsive Nav */
+  .nav-img {
+    width: 70%;
+  }
+  .img-parent {
+    width: 10%;
+  }
+  .ChangeLang {
+    padding: 7px;
+  }
+  .Language {
+    font-size: 17px;
+  }
+  /* Responsive Work Simple Section*/
+  .workSimple-container {
+    width: 70%;
+    height: 95vh;
+  }
+  .workSimple-link {
+    font-size: 20px;
+  }
+  /* Responsive About Me Section */
+  .aboutMe-container {
+    height: 70vh;
+    width: 70%;
+  }
+  .aboutMe-description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* Responsive Employ Me Section */
+  .employ-container {
+    width: 70%;
+    height: 80vh;
+  }
+  .employ-description {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Responsive Nav */
+  .nav-img {
+    width: 70%;
+  }
+  .img-parent {
+    width: 10%;
+  }
+  .ChangeLang {
+    padding: 7px;
+  }
+  .Language {
+    font-size: 17px;
+  }
+  /* Responsive Work Simple Section*/
+  .workSimple-container {
+    width: 70%;
+    height: 107vh;
+  }
+  .workSimple-link {
+    font-size: 20px;
+  }
+  /* Responsive About Me Section */
+  .aboutMe-container {
+    height: 70vh;
+    width: 70%;
+  }
+  .aboutMe-description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* Responsive Employ Me Section */
+  .employ-container {
+    width: 70%;
+    height: 65vh;
+  }
+  .employ-description {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* Responsive Nav */
+  .nav-img {
+    width: 70%;
+  }
+  .img-parent {
+    width: 10%;
+  }
+  .ChangeLang {
+    padding: 7px;
+  }
+  .Language {
+    font-size: 17px;
+  }
+  /* Responsive Work Simple Section*/
+  .workSimple-container {
+    width: 70%;
+    height: 75vh;
+  }
+  .workSimple-link {
+    font-size: 20px;
+  }
+  /* Responsive About Me Section */
+  .aboutMe-container {
+    height: 40vh;
+    width: 70%;
+  }
+  .aboutMe-description {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  /* Responsive Employ Me Section */
+  .employ-container {
+    width: 70%;
+    height: 45vh;
+  }
+  .employ-description {
+    font-size: 17px;
+    line-height: 25px;
+  }
+}
