@@ -170,3 +170,13 @@ html{
 .fa-whatsapp {
   color: #31bd64;
 }
+/* Responsive Design */
+@media (max-width:576px) {
+  /* Responsive Nav */
+  .nav-img {
+    width: 80%;
+  }
+  .img-parent {
+    width: 10%;
+  }
+}

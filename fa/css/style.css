@@ -127,3 +127,48 @@ html{
   line-height: 40px;
   direction: rtl;
 }
+/* Creat Employ Section */
+.employ {
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+}
+.employ-container {
+  height: 50vh;
+  width: 60%;
+  border-radius: 5px;
+  /* Make Gradient */
+  background: hsla(252, 40%, 29%, 1);
+  background: linear-gradient(90deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+}
+.employ-title {
+  text-align: center;
+  padding: 10px;
+}
+.employ-description {
+  font-size: 23px;
+  padding: 20px;
+  line-height: 37px;
+}
+/* Make Social Media Icon And Phone Number*/
+.phoneNumber {
+  padding: 5px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.socialMediaIcon-ol {
+  display: flex;
+  justify-content: flex-end;
+}
+.socialMediaIcon {
+  font-size: 35px;
+  margin-right: 20px;
+}
+.fa-telegram {
+  color: #229ED9;
+}
+.fa-whatsapp {
+  color: #31bd64;
+}
